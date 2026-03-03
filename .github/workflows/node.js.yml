@@ -22,6 +22,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./project
 
       - name: Basic startup check
         run: node -e "require('./index.js'); console.log('Server loaded successfully');"
+        working-directory: ./project

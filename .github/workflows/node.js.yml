@@ -1,13 +1,14 @@
-name: CI
+name: Simple Node CI
 
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
-  test:
+  validate:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,5 +23,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run tests
-        run: node server.js
+      - name: Basic startup check
+        run: node -e "require('./index.js'); console.log('Server loaded successfully');"

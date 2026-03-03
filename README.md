@@ -260,6 +260,12 @@ To create a node.js project, we will need to create a project folder, thereafter
 
 - Add your code to the repository and push it to GitHub.
 
-![]()
+![push to repo](./img/git%20push.png)
+
+3. cat Writing Your First GitHub Action Workflow:
+
+Create a .github/workflows directory in your repository.
+Add a workflow file (e.g., node.js.yml).
+![create workflow file](./img/node%20repo.png)
 
 

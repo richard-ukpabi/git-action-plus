@@ -268,4 +268,5 @@ Create a .github/workflows directory in your repository.
 Add a workflow file (e.g., node.js.yml).
 ![create workflow file](./img/node%20repo.png)
 
-
+testing the simple node.js project with a git action workflow
+![output-action](./img/npm%20git%20action-output.png)

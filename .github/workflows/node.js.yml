@@ -26,4 +26,4 @@ jobs:
 
       - name: Basic startup check
         run: node -e "require('./index.js'); console.log('Server loaded successfully');"
-        working-directory: ./project
+    
